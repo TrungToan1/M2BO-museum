@@ -2,7 +2,12 @@ class App
 {
     runApplication()
     {
+    let body = document.getElementsByTagName("body")
+
     
+    
+    
+        
     }
 }
 
