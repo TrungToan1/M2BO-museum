@@ -8,10 +8,14 @@ header, footer{
     background-color: #222831;
     color: white;
     height: 80px;
+    display: flex ;
+    justify-content: center;
     text-align: center;
     font-size: larger;
     letter-spacing: 2px;
 }
+
+
 
 h1{
     font-size: 250%;
@@ -29,7 +33,7 @@ figure{
     margin-bottom: 40px;
 }
 img{
-    width: 10%;
+    width: 25%;
     border-radius: 5px;
     transition: 0.2s transform;
 }
