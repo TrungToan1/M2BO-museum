@@ -4,31 +4,53 @@ body{
     font-size: 20px;
     font-family: sans-serif;
 }
-header, footer{
-    background-color: #222831;
-    color: white;
+header{
     height: 80px;
-    display: flex ;
-    justify-content: center;
-    text-align: center;
-    font-size: larger;
-    letter-spacing: 2px;
+    background: black;
 }
+.logomusuem{
+    width: 400px;
+    display: flex;
+    
+}
+.footer{
+    height: 120px;
+    background: black;
+    display: flex;
+    color: white;
+    align-items: flex-start;
+    justify-content: space-between;
+    letter-spacing: 2px;
+    font-size: 10px;
+   
+    
+
+}
+.footerOpeningTijden{
+    padding-left: 60px;
+}
+.footerLocatie{
+    padding-right: 60px;
+}
+article{
+
+}
+
+main{
+    min-height: 100vh; 
+    margin: 0 auto;
+    max-width:60vw;
+}
+
 
 
 
 h1{
     font-size: 250%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border-bottom: 1px solid black;
 }
 
-article{
-    width:60vw;
-    margin: 0 auto;
-    padding: 40px;
-
-}
 figure{
     margin-bottom: 40px;
 }
@@ -37,14 +59,6 @@ img{
     border-radius: 5px;
     transition: 0.2s transform;
 }
-img:hover{
-    transform: scale(1.05);
-}
-
-p{
-    margin-bottom: 40px;
-}
-
 
 figcaption{
     font-size: 80%;
