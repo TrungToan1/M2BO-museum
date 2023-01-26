@@ -139,9 +139,29 @@ nav > ul > .active{
     border: solid black 1px;
     border-radius: 50px;
 }
+.contactgegevens{
+    width: 800px;
+    height: 700px;
+    padding: 40px;
+    background: rgba(211, 211, 211, 0.6);
+    position: absolute;
+    right: 600px;
+    top: 300px;
+    border: solid black 1px;
+    border-radius: 50px;
+    text-align: center;
+}
+.contactgegevensTitle{
+    
+}
+
+.contactParagraaf{
+    margin-top: 50px;
+}
+
 .geschiedenis{
     width: 600px;
-    height: 400px;
+    height: 560px;
     padding: 40px;
     background: rgba(211, 211, 211, 0.6);
     border: solid black 1px;
@@ -152,7 +172,7 @@ nav > ul > .active{
 }
 .reviews{
     width: 600px;
-    height: 400px;
+    height: 560px;
     padding: 40px;
     background: rgba(211, 211, 211, 0.6);
     border: solid black 1px;
