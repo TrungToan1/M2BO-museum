@@ -121,7 +121,10 @@ nav>ul>.active {
     height: 1000px;
     width: 100vw;
 }
-
+.box3{
+    height: 300px;
+    width: 100vw;
+}
 .box2 {
     height: 800px;
     width: 100vw;
@@ -191,7 +194,6 @@ nav>ul>.active {
     border: solid black 1px;
     border-radius: 50px;
     float: left;
-    margin-top: 200px;
     margin-left: 200px;
 }
 
@@ -203,7 +205,6 @@ nav>ul>.active {
     border: solid black 1px;
     border-radius: 50px;
     float: right;
-    margin-top: 200px;
     margin-right: 200px;
 }
 
@@ -256,13 +257,14 @@ button:hover {
 /* image slider */
 
 .slider-container {
-    width: 1000px;
+    width: 900px;
     height: 800px;
     position: relative;
     right:-1000px;
     bottom:0;
     object-fit: cover;
     border: solid black 6px;
+    border-radius: 60px;
 }
 
 .slider-image-container {
@@ -280,6 +282,7 @@ button:hover {
     left: 0;
     opacity: 0;
     transition: opacity 1s;
+    border-radius: 50px;
 }
 
 .slider-image.active {
