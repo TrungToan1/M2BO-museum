@@ -221,9 +221,11 @@ button:hover {
 /* image slider */
 
 .slider-container {
-    width: 600px;
-    height: 400px;
+    width: 605px;
+    height: 807px;
     position: relative;
+    right:-900px;
+    bottom:0;
 }
 
 .slider-image-container {
@@ -265,3 +267,5 @@ button:hover {
 .slider-nav-button:hover {
     cursor: pointer;
 }
+
+/*              */
