@@ -96,7 +96,7 @@ nav>ul>.active {
 .footerOpeningTijden {
     padding-left: 20px;
     gap: 20px;
-    width: 500px;
+    width: 600px;
 }
 
 .tijden {
@@ -168,7 +168,7 @@ nav>ul>.active {
     padding: 40px;
     background: rgba(211, 211, 211, 0.6);
     position: absolute;
-    right: 1200px;
+    right: 1015px;
     top: 1080px;
     border: solid black 1px;
     border-radius: 50px;
@@ -294,10 +294,10 @@ button:hover {
 /* image slider */
 
 .slider-container {
-    width: 900px;
+    width: 800px;
     height: 800px;
     position: relative;
-    right:-1000px;
+    right:-1100px;
     bottom:0;
     object-fit: cover;
     border: solid black 6px;
