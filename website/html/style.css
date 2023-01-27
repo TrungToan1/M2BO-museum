@@ -348,6 +348,10 @@ button:hover {
 
 /*              */
 
+.highlights{
+    margin-left: 260px
+}
+
 
 
 #game
@@ -448,8 +452,4 @@ background: rgba(190, 19, 19, 0.2);
 border: red;
 font-size: 3rem;
 cursor: pointer;
-}
-
-.highlights{
-    margin-left: 260px
 }
